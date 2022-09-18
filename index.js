@@ -7,7 +7,7 @@ const port = process.env.PORT || 8080;
 app.use(express.json({ extended: false }));
 app.set('view engine', 'ejs')
 app.use("/api/main", main)
-//app.use(express.static(__dirname + '/public'));
+app.use(express.static(__dirname + '/public'));
 
 
 
