@@ -12,9 +12,29 @@ body {
 }
 
 .box {
-    background-color: #8E8ACD;
+    background-color: #8e89e6;
+    border-radius: 15px;
+    border: solid #6f68cb;
     font-size: small;
     text-align: center;
+    width: 100px;
+    height: 100px;
+}
+
+.content {
+    position: relative;
     top: 50%;
-    left: 50%;
+    transform: translateY(-50%);
+    margin: 0px;
+}
+
+.content a {
+    color: rgb(70, 87, 153);
+    font-size: small;
+    margin: 0px;
+}
+
+.content img {
+    height: 40%;
+    width: 40%;
 }
