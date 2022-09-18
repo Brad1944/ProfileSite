@@ -1,3 +1,20 @@
 body {
-    background-color: aqua;
+    background-color: #A09BE7;
+    font-family: "Jetbrains Mono";
+}
+
+.title {
+    color: black;
+    font-weight: bold;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.box {
+    background-color: #8E8ACD;
+    font-size: small;
+    text-align: center;
+    top: 50%;
+    left: 50%;
 }
