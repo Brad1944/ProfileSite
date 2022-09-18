@@ -1,9 +1,10 @@
 const express = require('express')
 const app = express()
+var path = require('path');
 const main = require("./api/main")
 const port = process.env.PORT || 8080;
 
-
+app.set('views', path.join(__dirname, '/views'));
 app.use(express.json({ extended: false }));
 app.set('view engine', 'ejs')
 app.use("/api/main", main)
