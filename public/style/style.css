@@ -87,8 +87,7 @@ a {
     display: block;
     width: auto;
     height: auto;
-    max-width: 9%;
-    max-height: 9%;
+    max-width: 20vh;
     margin: 20px auto;
 }
 
