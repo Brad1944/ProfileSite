@@ -77,18 +77,14 @@ a {
 
 .profile img {
     top: 45%;
-    /*! left: 50%; */
-    /*! transform: translate(-50%, 80%); */
     position: relative;
     border-radius: 50%;
-    /*! height: 5vh; */
-    /*! width: 5vh; */
     border: solid thick #6fabd0;
     display: block;
     width: auto;
     height: auto;
     max-width: 15vh;
-    margin: 20px auto;
+    margin: 40px auto;
 }
 
 .credit {
