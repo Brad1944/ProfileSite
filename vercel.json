@@ -1,5 +1,13 @@
 {
     "version": 2,
+    "buildCommand": "npx tailwindcss -i ./public/style/style.css -o ./public/dist/output.css",
+    "builds": [
+        {
+            "src": "./index.js",
+            "use": "@vercel/node"
+            
+        }
+    ],
     "routes": [
         {
             "src": "/(.*)",
