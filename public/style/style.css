@@ -36,6 +36,10 @@ a {
     font-size: 3vh;
 }
 
+.title a {
+    text-decoration: underline;
+}
+
 .container {
     top: 60%;
     left: 50%;
@@ -49,24 +53,23 @@ a {
 }
 
 .box {
-    background-color: #6fabd0;
+    background-color: #8ebddb;
     border-radius: 15px;
     border: solid #ADD9EF;
     text-align: center;
     width: 100px;
     height: 100px;
     margin: 1%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
-.content {
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin: 0px;
+.box-a {
+    margin: 1%
 }
 
-.content a {
+.box p {
     font-size: small;
     font-weight: bold;
     color: rgb(255, 255, 255);
@@ -74,9 +77,10 @@ a {
     margin: 0px;
 }
 
-.content img {
-    height: 40%;
-    width: 40%;
+.box img {
+    margin-top:8%;
+    height: 50%;
+    width: 50%;
 }
 
 .profile img {
