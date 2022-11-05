@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+          "type": "command",
+          "name": "Node Run",
+          "program": "node",
+          "args": ["index.js"],
+        },
+
+    ]
+}

@@ -1,0 +1,9 @@
+{
+  "handler": "api/main.js",
+  "runtime": "nodejs16.x",
+  "environment": {},
+  "launcherType": "Nodejs",
+  "shouldAddHelpers": true,
+  "shouldAddSourcemapSupport": false,
+  "awsLambdaHandler": ""
+}

@@ -1,0 +1,15 @@
+{
+  "projectId": "prj_tQKPUiw2HRyVXdK0hJf6RZ6mMwnc",
+  "orgId": "UV3XdEo7h6HOJpoK8QWZLmMU",
+  "settings": {
+    "createdAt": 1663504508031,
+    "framework": null,
+    "devCommand": null,
+    "installCommand": "npm i",
+    "buildCommand": "npx tailwindcss -i ./public/style/style.css -o ./public/dist/output.css",
+    "outputDirectory": null,
+    "rootDirectory": null,
+    "directoryListing": false,
+    "nodeVersion": "16.x"
+  }
+}
