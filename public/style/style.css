@@ -38,6 +38,8 @@ a {
 
 .title a {
     text-decoration: underline;
+    margin-left: 10px;
+    margin-right: 0;
 }
 
 .container {
